@@ -1,1 +1,40 @@
-{     "devDependencies": {         "primus": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-primus",     "homepage": "https://github.com/npmtest/node-npmtest-primus",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-primus.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [primus (v7.0.0)](http://primus.io) [![npm package](https://img.shields.io/npm/v/npmtest-primus.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-primus) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-primus.svg)](https://travis-ci.org/npmtest/node-npmtest-primus)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "primus": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-primus",
+    "keywords": [
+        "coverage",
+        "test",
+        "primus"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_primus.js",
+    "name": "npmtest-primus",
+    "nameAlias": "npmtest_primus",
+    "nameOriginal": "npmtest-primus",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-primus.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
