@@ -1,7 +1,10 @@
-# test coverage for  [primus (v7.0.0)](http://primus.io)  [![npm package](https://img.shields.io/npm/v/npmtest-primus.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-primus) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-primus.svg)](https://travis-ci.org/npmtest/node-npmtest-primus)
+# npmtest-primus
+
+#### test coverage for  [primus (v7.0.0)](http://primus.io)  [![npm package](https://img.shields.io/npm/v/npmtest-primus.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-primus) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-primus.svg)](https://travis-ci.org/npmtest/node-npmtest-primus)
+
 #### Primus is a simple abstraction around real-time frameworks. It allows you to easily switch between different frameworks without any code changes.
 
-[![NPM](https://nodei.co/npm/primus.png?downloads=true)](https://www.npmjs.com/package/primus)
+[![NPM](https://nodei.co/npm/primus.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/primus)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-primus/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-primus/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-primus/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-primus/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-primus/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-primus/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-primus/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-primus/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-primus/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-primus/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-primus%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-primus/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-primus/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-primus/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-primus/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-primus%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-primus/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-primus/build/test-report.html](https://npmtest.github.io/node-npmtest-primus/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-primus/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-primus/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-primus/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-primus/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-primus/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-primus/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-primus/build/screenCapture.npmPackageListing.svg)
 
@@ -120,34 +129,27 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "jcrugzz",
-            "email": "jcrugzz@gmail.com"
+            "name": "jcrugzz"
         },
         {
-            "name": "swaagie",
-            "email": "info@martijnswaagman.nl"
+            "name": "swaagie"
         },
         {
-            "name": "lpinca",
-            "email": "luigipinca@gmail.com"
+            "name": "lpinca"
         },
         {
-            "name": "davedoesdev",
-            "email": "dahalls@gmail.com"
+            "name": "davedoesdev"
         },
         {
-            "name": "v1",
-            "email": "info@3rd-Eden.com"
+            "name": "v1"
         },
         {
-            "name": "3rdeden",
-            "email": "npm@3rd-Eden.com"
+            "name": "3rdeden"
         }
     ],
     "name": "primus",
     "optionalDependencies": {},
     "pre-commit": "test, integration",
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/primus/primus.git"
