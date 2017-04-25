@@ -1,6 +1,6 @@
 # npmtest-primus
 
-#### test coverage for  [primus (v7.0.0)](http://primus.io)  [![npm package](https://img.shields.io/npm/v/npmtest-primus.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-primus) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-primus.svg)](https://travis-ci.org/npmtest/node-npmtest-primus)
+#### basic test coverage for  [primus (v7.0.0)](http://primus.io)  [![npm package](https://img.shields.io/npm/v/npmtest-primus.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-primus) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-primus.svg)](https://travis-ci.org/npmtest/node-npmtest-primus)
 
 #### Primus is a simple abstraction around real-time frameworks. It allows you to easily switch between different frameworks without any code changes.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-primus/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-primus/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-primus/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-primus/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-primus/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-primus/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-primus/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-primus/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-primus/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-primus/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-primus/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-primus/build/coverage.html/index.html)
 
@@ -161,7 +161,8 @@
         "test": "npm run build && mocha test/*.test.js",
         "update": "find transformers -name update.sh -exec bash {} \\;"
     },
-    "version": "7.0.0"
+    "version": "7.0.0",
+    "bin": {}
 }
 ```
 
